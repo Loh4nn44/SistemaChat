@@ -87,7 +87,7 @@ section{
     white-space: nowrap;
 }
 
-.mat{
+.mat .leg{
     font-size: 18px;
     color: gray;
     margin-top: 15px;
@@ -154,6 +154,13 @@ footer p {
 footer a {
     color: #fff;
     text-decoration: none;
+}
+
+footer img{
+    width: 50px;
+    height: 70px;
+    object-fit: cover;
+    position: absolute;
 }
 
 .cabecalho {
