@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <title>ChatApp</title>
+</head>
+
+<body>
+
+  <header class="cabecalho">
+    <img src="images/logo.chat.png" alt="logo">
+    <nav class="menu">
+      <a href="#" onclick="logout()">sair</a>
+      <a href="desenvolvedores.html">desenvolvedores</a>
+      <a href="tecnologias.html">tecnologias</a>
+    </nav>
+  </header>
+
+  <div id="chatArea" class="app">
+
+    <div id="sidebar">
+      <h3>Conversas</h3>
+      <button class="chat-btn" onclick="selectChat('chat1', this)">Projeto PI</button>
+      <button class="chat-btn" onclick="selectChat('chat2', this)">INFO 3V</button>
+      <button class="chat-btn" onclick="selectChat('chat3', this)">Grupo da Fofoca</button>
+    </div>
+
+    <div class="chat-container">
+
+      <div id="messages"></div>
+
+      <div class="chat-input">
+        <input id="msg" placeholder="Digite uma mensagem">
+        <button onclick="sendMsg()">Enviar</button>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>IFRN campus Santa Cruz | Trabalho de Programação para a Internet</p>
+    <p>Prof. Marcelo Figueiredo Barbosa Júnior</p>
+  </footer>
+
+</body>
+
+</html>
