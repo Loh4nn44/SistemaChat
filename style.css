@@ -136,7 +136,7 @@ section{
 footer {
     background-color: #fff;
     color: #4b494994;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     clear: both;
     width: 100%;
     bottom: 0;
@@ -159,11 +159,10 @@ footer a {
 footer img{
     width: 50px;
     height: 70px;
-    object-fit: cover;
     position: absolute;
 }
 
-.cabecalho {
+header {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.049);
     background-color: #ffffff;
     position: relative;
@@ -173,7 +172,7 @@ footer img{
     text-align: left;
 }
 
-.cabecalho img {
+header img {
     width: 20%;
     height: 20%;
 }
